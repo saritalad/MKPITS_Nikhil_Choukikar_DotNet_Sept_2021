@@ -3,10 +3,14 @@
 int main()
 
 {
-  int mile=250,km;
-  km= mile *1.61;
+  int mile,km;
   
-  printf("Value of km = %d");
+  printf("Enter the value of mile");
+  scanf("%d",&mile);
+  
+  km = mile *1.61;
+  
+  printf("Value of km = %d",km);
   
 }  
 

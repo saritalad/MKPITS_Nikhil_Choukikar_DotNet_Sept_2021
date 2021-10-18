@@ -3,11 +3,15 @@
 
 int main()
 {
-int i;
-int z= INT_MAX;
+int inta=INT_MIN;
+signed char signedcharb=SCHAR_MIN;
+char charc=CHAR_MIN;
+short shortd=SHRT_MIN;
+long longe=LONG_MIN;
+long longlongf=LLONG_MIN;
 
-scanf("Enter value of i");
-printf("\n Max Int Value= %d",z);
+printf("\nMin Int Value is inta=%d \nsignedcharb=%d \ncharc=%d \nshortd=%d \nlonge=%ld \nlonglongf=%lld \n",inta,signedcharb,charc,shortd,longe,longlongf);
 
 }
+
 

@@ -13,7 +13,7 @@ int main()
  printf("\n A[%d] = %d",i,A[i]);
  }
 
-} 
+
  
  
  

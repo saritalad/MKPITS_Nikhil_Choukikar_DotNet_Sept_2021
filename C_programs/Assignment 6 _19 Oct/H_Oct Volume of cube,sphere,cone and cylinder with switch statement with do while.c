@@ -4,7 +4,7 @@
  void Vol_Sphere(int);
  void Vol_Cone(int,int);
  void Vol_Cylinder(int,int);
- 
+ /* DO NOT TAKE I/P INSIDE FUNCTION TAKE IT IN CASE OF MAIN FUNCTION   AS FNT IS VOID FUNCTION(INPUT); FORMAT */
 int main()
 {
  char ch,reply='y';
@@ -17,8 +17,10 @@ int main()
  {       
   case 'A':
   case 'a':
-          
+    /*       printf("\nEnter the length");
+         scanf("%d",&l);
 		  Vol_Cube(l);
+		  */
 		  break;
 		 
   case'B':
@@ -52,8 +54,7 @@ int main()
 void Vol_Cube(int l)
  {
   float V;
-  printf("\nEnter the length");
-  scanf("%d",&l);
+ 
   V= l*l*l;
   printf("\n Volume of cube =%0.2f",V);
  } 
